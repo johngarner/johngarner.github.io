@@ -1,10 +1,15 @@
-/* CSS Document */
+/*
+Colors:
 
-/*$garnerBlue: #061233;*/
-/*$garnerRed: #E38585;*/
+blue: 061233
+red: E38585
+
+green: 06D6A0
+white: FFFFFF
+*/
 
 html {
-	background-color: #E38585;
+	background-color: #FFFFFF;
 }
 
 .index {
@@ -12,27 +17,28 @@ html {
 }
 
 .section01 {
-	background-color: #061233;
+	background-color: #06D6A0;
 	width: 100vw;
 	height: 80vh;
 }
 
 .section02 {
-	background-color: #E38585;
+	background-color: #FFFFFF;
 	width: 100vw;
 	height: 20vh;
 	animation: fadein-color 1.5s;
 }
 
 .topText {
-	width: 41.65vw;
+	width: 650px;
+	max-width: 80vw;
 	padding-top: 25vh;
 	margin: auto;
 }
 
 .bottomText {
-	max-width: 41.65vw;
-	min-width: 240px;
+	width: 650px;
+	max-width: 80vw;
 	padding-top: 6vh;
 	display: flex;
 	margin: auto;
@@ -49,9 +55,15 @@ html {
 	padding: 0px !important;
 }
 
+.GIF {
+	height: 384px;
+	width: 584px;
+	max-width: 80vw;
+}
+
 h1 {
 	margin: 0;
-	color: #E38585;
+	color: #FFFFFF;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1.5em;
 	font-weight: 300;
@@ -61,7 +73,7 @@ h1 {
 
 h2 {
 	margin: 0;
-	color: #061233;
+	color: #06D6A0;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1.25em;
 	font-weight: 400;
@@ -75,25 +87,25 @@ p {
 	font-size: 1.25em;
 	font-weight: 300;
 	padding-top: 2.25vh;
-	margin-right: -1.2em;
 	animation: fadein-opacity 1.5s;
 }
 
 a {
 	margin: 0;
-	color: #061233;
+	color: #06D6A0;
 	font-family: Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	opacity: .75;
 }
 
 a:hover { 
-    background-color: #FFFFFF;
+    background-color: #06D6A0;
+    color: #FFFFFF;
 }
 
 a:active {
-    background-color: #061233;
-	color: #E38585;
+    background-color: #06D6A0;
+	color: #FFFFFF;
 	opacity: 1;
 }
 
@@ -129,7 +141,7 @@ a:active {
 
 .typing h1 {
 	overflow: hidden;
-	border-right: .15em solid #E38585;
+	border-right: .15em solid #FFFFFF;
 	white-space: nowrap;
 	max-width: 127.5px;
 	animation: 
@@ -144,7 +156,7 @@ a:active {
 
 @keyframes blink-caret {
 	from, to { border-color: transparent }
-	50% { border-color: #E38585 }
+	50% { border-color: #FFFFFF }
 }
 
 @keyframes fadein-opacity {
@@ -153,6 +165,6 @@ a:active {
 }
 
 @keyframes fadein-color {
-    from { background-color: #061233; }
-    to   { background-color: #E38585; }
+    from { background-color: #06D6A0; }
+    to   { background-color: #FFFFFF; }
 }
