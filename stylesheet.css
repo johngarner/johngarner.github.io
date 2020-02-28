@@ -25,9 +25,6 @@ html {
 .section02 {
 	background-color: #FFFFFF;
 	width: 100vw;
-	/*height: 20vh;*/
-	/*animation: fadein-color 1.5s;*/
-	padding-top: 5vh;
 
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
 	   -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -47,7 +44,8 @@ html {
 	width: 650px;
 	max-width: 80vw;
 	display: flex;
-	margin: auto;
+	margin: 5vh auto;
+	height: 10vh;
 }
 
 .bottomText div {
