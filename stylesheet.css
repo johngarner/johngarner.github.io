@@ -12,8 +12,9 @@ html {
 	background-color: #FFFFFF;
 }
 
-.index {
+body {
 	margin: 0;
+	max-height: -webkit-fill-available;
 }
 
 .section01 {
